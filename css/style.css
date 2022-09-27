@@ -9,16 +9,19 @@
     --my-grey: grey;
     --my-overlay: rgba(255, 0, 0, 0.45);
 }
-
-/* specific selectors */
-
-/* topbar */
 .my-bg-dark{
     background-color: var(--my-bg-dark-blue);
 }
 .my-dark{
     color: var(--my-bg-dark-blue);
 }
+.my-green{
+    background-color: var(--my-green);
+}
+/* specific selectors */
+
+/* topbar */
+
 header a.text-uppercase{
     font-weight: bold;
 }
@@ -33,7 +36,6 @@ header button.navbar-toggler{
 }
  /* hero */
 #hero{
-    background-color: var(--my-green);
     padding-top: 5rem;
 }
  div img.avatar{
