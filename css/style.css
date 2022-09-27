@@ -27,3 +27,24 @@ header a.navbar-brand{
 header button.navbar-toggler{
     border-color: var(--my-grey);
 }
+ /* hero */
+ .hero{
+    background-color: var(--my-green);
+    padding-top: 5rem;
+
+ }
+ div img.avatar{
+    width: 40%;
+    max-width: 100%;
+ }
+ .hero .star{
+    width: 10%;
+ }
+ .star i{
+    font-size: 1.3rem;
+ }
+ .line{
+    height: 3px;
+    border-radius: 1.5px;
+    width: 10%;
+ }
