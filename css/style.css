@@ -7,13 +7,17 @@
     --my-wt: white;
     --my-blk: black;
     --my-grey: grey;
+    --my-overlay: rgba(255, 0, 0, 0.45);
 }
 
 /* specific selectors */
 
 /* topbar */
-header{
+.my-bg-dark{
     background-color: var(--my-bg-dark-blue);
+}
+.my-dark{
+    color: var(--my-bg-dark-blue);
 }
 header a.text-uppercase{
     font-weight: bold;
@@ -28,16 +32,15 @@ header button.navbar-toggler{
     border-color: var(--my-grey);
 }
  /* hero */
- .hero{
+#hero{
     background-color: var(--my-green);
     padding-top: 5rem;
-
- }
+}
  div img.avatar{
     width: 40%;
     max-width: 100%;
  }
- .hero .star{
+.star{
     width: 10%;
  }
  .star i{
@@ -48,3 +51,29 @@ header button.navbar-toggler{
     border-radius: 1.5px;
     width: 10%;
  }
+/* portfolio */
+#portfolio .cards img{
+    width: 100%;
+    max-width: 100%;
+}
+.overlay{
+    display: none;
+    background-color: var(--my-overlay);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0.75rem;
+    width: calc(100% - 1.5rem);
+    font-size: ;
+
+}
+.overlay i{
+    font-size: 3.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cards div[class*='col-']:hover .overlay{
+    display: block;
+}

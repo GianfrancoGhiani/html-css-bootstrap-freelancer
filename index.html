@@ -11,7 +11,8 @@
     <title>Bootstrap</title>
 </head>
 <body>
-    <header class="py-2 fixed-top">
+    <!-- topbar -->
+    <header class="py-2 fixed-top my-bg-dark">
             <nav class="navbar navbar-expand-lg bg-transparent">
                 <div class="container-md">
                   <a class="navbar-brand text-uppercase text-white" href="#">start bootstrap</a>
@@ -36,8 +37,10 @@
                 </div>
               </nav>
     </header>
+    <!-- main body composed of 4 parts -->
     <main>
-        <div class="hero pb-4">
+        <!-- hero -->
+        <div id="hero" class="pb-4">
             <div class="container-md text-center">
                 <img class="avatar" src="img/avatar.svg" alt="avatar">
                 <h1 class="text-uppercase text-white">start bootstrap</h1>
@@ -51,11 +54,56 @@
                 </div>
             </div>
         </div>
+        <!-- portfolio -->
+        <div id="portfolio" class="container-md text-center">
+            <h2 class="text-uppercase py-4 my-dark">portfolio</h2>
+            <div class="row justify-content-center align-items-center">
+                <div class="line my-bg-dark"></div>
+                <div class="star text-center"><i class="fa-solid fa-star my-dark"></i></div>
+                <div class="line my-bg-dark"></div>
+            </div>
+            <div class="cards pt-4">
+                <div class="row g-4 row-cols-lg-3 row-cols-md-2 row-cols-1">
+                    <div class="col-sm-12 col-md-6 col-lg-4 position-relative">
+                        <div class="overlay rounded-3"><i class="fa-solid fa-plus text-black"></i></div>
+                        <img class="rounded-3" src="img/cabin.png" alt="cabin">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 position-relative">
+                        <div class="overlay rounded-3"><i class="fa-solid fa-plus text-black"></i></div>
+                        <img class="rounded-3" src="img/cake.png" alt="cake">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 position-relative">
+                        <div class="overlay rounded-3"><i class="fa-solid fa-plus text-black"></i></div>
+                        <img class="rounded-3" src="img/circus.png" alt="circus">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 position-relative">
+                        <div class="overlay rounded-3"><i class="fa-solid fa-plus text-black"></i></div>
+                        <img class="rounded-3" src="img/game.png" alt="game">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 position-relative">
+                        <div class="overlay rounded-3"><i class="fa-solid fa-plus text-black"></i></div>
+                        <img class="rounded-3" src="img/safe.png" alt="safe">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 position-relative ">
+                        <div class="overlay rounded-3"><i class="fa-solid fa-plus text-black"></i></div>
+                        <img class="rounded-3" src="img/submarine.png" alt="submarine">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about us -->
+
+        <!-- contact -->
+
     </main>
     <footer>
+        <!-- composed of 2 parts -->
+        <!-- find us -->
         <div class="container-md">
 
         </div>
+        <!-- copyright -->
+
     </footer>
 </body>
 </html>
