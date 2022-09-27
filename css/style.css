@@ -9,6 +9,9 @@
     --my-grey: grey;
     --my-overlay: rgba(255, 0, 0, 0.45);
 }
+*{
+    scroll-margin-top: 5rem;
+}
 .my-bg-dark{
     background-color: var(--my-bg-dark-blue);
 }
@@ -39,6 +42,12 @@ header a.navbar-brand{
 }
 header button.navbar-toggler{
     border-color: var(--my-grey);
+}
+header ul a.nav-link:hover{
+    color: var(--my-green) !important; 
+    
+    /*l'important di bootstrap sovrascriveva tutto*/
+
 }
  /* hero */
 #hero{
@@ -84,6 +93,10 @@ header button.navbar-toggler{
 }
 .cards div[class*='col-']:hover .overlay{
     display: block;
+}
+/* about */
+#about .btn:hover{
+    background-color: lightseagreen;
 }
 /* footer */
 .copyright{
