@@ -1,0 +1,29 @@
+/* general */
+:root{
+    /* color palette */
+    --my-bg-dark-blue: #2c3e50;
+    --my-bg-blue: #3a546d;
+    --my-green: #1abc9c;
+    --my-wt: white;
+    --my-blk: black;
+    --my-grey: grey;
+}
+
+/* specific selectors */
+
+/* topbar */
+header{
+    background-color: var(--my-bg-dark-blue);
+}
+header a.text-uppercase{
+    font-weight: bold;
+}
+header a.navbar-brand{
+    font-size: 1.5rem;
+}
+.hamburger{
+    filter: invert(1);
+}
+header button.navbar-toggler{
+    border-color: var(--my-grey);
+}
