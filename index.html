@@ -7,6 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap</title>
 </head>
@@ -40,7 +43,7 @@
     <!-- main body composed of 4 parts -->
     <main>
         <!-- hero -->
-        <div id="hero" class="pb-4 my-green">
+        <div id="hero" class="pb-4 my-bg-green">
             <div class="container-md text-center">
                 <img class="avatar" src="img/avatar.svg" alt="avatar">
                 <h1 class="text-uppercase text-white">start bootstrap</h1>
@@ -92,7 +95,7 @@
             </div>
         </div>
         <!-- about -->
-        <div class="my-green">
+        <div class="my-bg-green">
             <div id="about" class="container-md text-center">
                 <h2 class="text-uppercase py-4 text-white">about</h2>
                 <div class="row justify-content-center align-items-center">
@@ -119,11 +122,37 @@
     <footer>
         <!-- composed of 2 parts -->
         <!-- find us -->
-        <div class="container-md">
-
+        <div class="my-blue">
+            <div class="container-md text-white text-center">
+                <div class="location py-4">
+                    <div class="text-uppercase">location</div>
+                    <div class="text-capitalize">2215 john daniel drive clark, MO 54243</div>
+                </div>
+                <div class="social py-3">
+                    <div class="text-uppercase">around the web</div>
+                    <div class="row g-4 justify-content-center align-items-center w-50 m-auto">
+                        <div class="col-2 social-logo border rounded-circle border-white p-2">
+                            <i class="bi bi-facebook"></i>
+                        </div>
+                        <div class="col-2 offset-1 social-logo border rounded-circle border-white p-2">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </div>
+                        <div class="social-logo col-2 offset-1 border rounded-circle border-white p-2">
+                            <i class="bi bi-twitter"></i>
+                        </div>
+                        <div class="social-logo offset-1 col-2 border rounded-circle border-white p-2">
+                            <i class="bi bi-linkedin"></i>
+                        </div>
+                    </div> 
+                </div>
+                <div class="about-freelancer py-3">
+                    <div class="text-uppercase">about freelancer</div>
+                    <div>Freelance is a free to use, open source Bootstrap theme created by <span class="my-green">Start Bootstrap</span></div>
+                </div>
+            </div>
         </div>
         <!-- copyright -->
-
+        <div class="copyright text-center my-bg-dark text-white py-3">Copyright &copy; Your Website 2019</div>
     </footer>
 </body>
 </html>

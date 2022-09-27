@@ -15,8 +15,14 @@
 .my-dark{
     color: var(--my-bg-dark-blue);
 }
-.my-green{
+.my-blue{
+    background-color: var(--my-bg-blue);
+}
+.my-bg-green{
     background-color: var(--my-green);
+}
+.my-green{
+    color: var(--my-green);
 }
 /* specific selectors */
 
@@ -78,4 +84,12 @@ header button.navbar-toggler{
 }
 .cards div[class*='col-']:hover .overlay{
     display: block;
+}
+/* footer */
+.copyright{
+    font-size: .8rem;
+}
+footer span:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
