@@ -95,7 +95,7 @@ header ul a.nav-link:hover{
     opacity: 1;
 }
 /* about */
-#about .btn:hover{
+#about .btn:hover, #contact .btn:hover{
     background-color: var(--my-wt);
     color: var(--my-blk) !important;
 }
@@ -117,5 +117,18 @@ footer span:hover{
 }
 .social-logo:hover{
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.3);
+}
+#contact div.separe{
+    border-bottom: 1px solid var(--my-grey);
+}
+#contact label{
+    color: var(--my-bg-dark-blue);
+    font-weight: 600;
+}
+#contact .btn{
+    color: var(--my-wt);
+}
+#contact .btn:hover{
+    border: 1px solid var(--my-blk);
 }
