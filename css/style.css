@@ -96,7 +96,8 @@ header ul a.nav-link:hover{
 }
 /* about */
 #about .btn:hover{
-    background-color: lightseagreen;
+    background-color: var(--my-wt);
+    color: var(--my-blk) !important;
 }
 /* footer */
 .copyright{
@@ -105,4 +106,16 @@ header ul a.nav-link:hover{
 footer span:hover{
     cursor: pointer;
     text-decoration: underline;
+}
+.social-logo{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 300ms;
+}
+.social-logo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
