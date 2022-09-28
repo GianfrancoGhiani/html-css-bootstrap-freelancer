@@ -27,6 +27,9 @@
 .my-green{
     color: var(--my-green);
 }
+.txt-wt{
+    color: var(--my-wt);
+}
 /* specific selectors */
 
 /* topbar */
@@ -44,10 +47,7 @@ header button.navbar-toggler{
     border-color: var(--my-grey);
 }
 header ul a.nav-link:hover{
-    color: var(--my-green) !important; 
-    
-    /*l'important di bootstrap sovrascriveva tutto*/
-
+    color: var(--my-green);
 }
  /* hero */
 #hero{
@@ -97,7 +97,7 @@ header ul a.nav-link:hover{
 /* about */
 #about .btn:hover, #contact .btn:hover{
     background-color: var(--my-wt);
-    color: var(--my-blk) !important;
+    color: var(--my-blk);
 }
 /* footer */
 .copyright{
