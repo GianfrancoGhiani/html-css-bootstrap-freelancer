@@ -74,7 +74,6 @@ header ul a.nav-link:hover{
     max-width: 100%;
 }
 .overlay{
-    display: none;
     background-color: var(--my-overlay);
     position: absolute;
     top:0;
@@ -82,7 +81,8 @@ header ul a.nav-link:hover{
     left: 0.75rem;
     width: calc(100% - 1.5rem);
     font-size: ;
-
+    opacity: 0;
+    transition: opacity 500ms;
 }
 .overlay i{
     font-size: 3.5rem;
@@ -92,7 +92,7 @@ header ul a.nav-link:hover{
     transform: translate(-50%, -50%);
 }
 .cards div[class*='col-']:hover .overlay{
-    display: block;
+    opacity: 1;
 }
 /* about */
 #about .btn:hover{
